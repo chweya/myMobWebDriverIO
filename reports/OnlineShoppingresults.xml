@@ -1,50 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Login_Functionality" timestamp="2021-01-15T12:48:03" time="17.489" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Login_Functionality" timestamp="2021-01-15T14:26:40" time="16.698" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Login Functionality"/>
       <property name="capabilities" value="05199339b6010679.android.9"/>
       <property name="file" value=".\testPage\login.test.js"/>
     </properties>
-    <testcase classname="05199339b6010679.android.9.Login_Functionality" name="should_login_successfully_using_valid_credentials" time="17.487">
+    <testcase classname="05199339b6010679.android.9.Login_Functionality" name="should_login_successfully_using_valid_credentials" time="16.697">
       <system-out>
         <![CDATA[
-COMMAND: POST /session/8a19578d-a2a3-4a67-b342-94bd2db6db9c/element - {"using":"accessibility id","value":"Login"}
+COMMAND: POST /session/b9f27cc8-59d0-4966-8429-0bc46e706022/element - {"using":"accessibility id","value":"Login"}
 RESULT: {"using":"accessibility id","value":"Login"}
-COMMAND: POST /session/8a19578d-a2a3-4a67-b342-94bd2db6db9c/element - {"using":"accessibility id","value":"Login"}
+COMMAND: POST /session/b9f27cc8-59d0-4966-8429-0bc46e706022/element - {"using":"accessibility id","value":"Login"}
 RESULT: {"using":"accessibility id","value":"Login"}
-COMMAND: POST /session/8a19578d-a2a3-4a67-b342-94bd2db6db9c/element - {"using":"accessibility id","value":"Login"}
+COMMAND: POST /session/b9f27cc8-59d0-4966-8429-0bc46e706022/element - {"using":"accessibility id","value":"Login"}
 RESULT: {"using":"accessibility id","value":"Login"}
-COMMAND: POST /session/8a19578d-a2a3-4a67-b342-94bd2db6db9c/element - {"using":"accessibility id","value":"Login"}
-RESULT: {"using":"accessibility id","value":"Login"}
-COMMAND: GET /session/8a19578d-a2a3-4a67-b342-94bd2db6db9c/element/1/displayed - {}
+COMMAND: GET /session/b9f27cc8-59d0-4966-8429-0bc46e706022/element/1/displayed - {}
 RESULT: {}
-COMMAND: POST /session/8a19578d-a2a3-4a67-b342-94bd2db6db9c/element/1/click - {}
+COMMAND: POST /session/b9f27cc8-59d0-4966-8429-0bc46e706022/element/1/click - {}
 RESULT: {}
-COMMAND: POST /session/8a19578d-a2a3-4a67-b342-94bd2db6db9c/element - {"using":"accessibility id","value":"input-email"}
+COMMAND: POST /session/b9f27cc8-59d0-4966-8429-0bc46e706022/element - {"using":"accessibility id","value":"input-email"}
 RESULT: {"using":"accessibility id","value":"input-email"}
-COMMAND: GET /session/8a19578d-a2a3-4a67-b342-94bd2db6db9c/element/2/displayed - {}
+COMMAND: GET /session/b9f27cc8-59d0-4966-8429-0bc46e706022/element/2/displayed - {}
 RESULT: {}
-COMMAND: POST /session/8a19578d-a2a3-4a67-b342-94bd2db6db9c/element/2/clear - {}
+COMMAND: POST /session/b9f27cc8-59d0-4966-8429-0bc46e706022/element/2/clear - {}
 RESULT: {}
-COMMAND: POST /session/8a19578d-a2a3-4a67-b342-94bd2db6db9c/element/2/value - {"text":"a@a.com"}
+COMMAND: POST /session/b9f27cc8-59d0-4966-8429-0bc46e706022/element/2/value - {"text":"a@a.com"}
 RESULT: {"text":"a@a.com"}
-COMMAND: POST /session/8a19578d-a2a3-4a67-b342-94bd2db6db9c/element - {"using":"accessibility id","value":"input-password"}
+COMMAND: POST /session/b9f27cc8-59d0-4966-8429-0bc46e706022/element - {"using":"accessibility id","value":"input-password"}
 RESULT: {"using":"accessibility id","value":"input-password"}
-COMMAND: GET /session/8a19578d-a2a3-4a67-b342-94bd2db6db9c/element/3/displayed - {}
+COMMAND: GET /session/b9f27cc8-59d0-4966-8429-0bc46e706022/element/3/displayed - {}
 RESULT: {}
-COMMAND: POST /session/8a19578d-a2a3-4a67-b342-94bd2db6db9c/element/3/clear - {}
+COMMAND: POST /session/b9f27cc8-59d0-4966-8429-0bc46e706022/element/3/clear - {}
 RESULT: {}
-COMMAND: POST /session/8a19578d-a2a3-4a67-b342-94bd2db6db9c/element/3/value - {"text":"2345678"}
+COMMAND: POST /session/b9f27cc8-59d0-4966-8429-0bc46e706022/element/3/value - {"text":"2345678"}
 RESULT: {"text":"2345678"}
-COMMAND: POST /session/8a19578d-a2a3-4a67-b342-94bd2db6db9c/element - {"using":"accessibility id","value":"button-LOGIN"}
+COMMAND: POST /session/b9f27cc8-59d0-4966-8429-0bc46e706022/element - {"using":"accessibility id","value":"button-LOGIN"}
 RESULT: {"using":"accessibility id","value":"button-LOGIN"}
-COMMAND: GET /session/8a19578d-a2a3-4a67-b342-94bd2db6db9c/element/4/displayed - {}
+COMMAND: GET /session/b9f27cc8-59d0-4966-8429-0bc46e706022/element/4/displayed - {}
 RESULT: {}
-COMMAND: POST /session/8a19578d-a2a3-4a67-b342-94bd2db6db9c/element/4/click - {}
+COMMAND: POST /session/b9f27cc8-59d0-4966-8429-0bc46e706022/element/4/click - {}
 RESULT: {}
-COMMAND: DELETE /session/8a19578d-a2a3-4a67-b342-94bd2db6db9c - {}
+COMMAND: DELETE /session/b9f27cc8-59d0-4966-8429-0bc46e706022 - {}
 RESULT: {}
 ]]>
       </system-out>
