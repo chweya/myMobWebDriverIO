@@ -34,6 +34,11 @@ exports.config =
             {
                 return `OnlineShoppingresults.xml`
             }
-        }]
+        }],
+        ['allure', 
+           {
+              outputDir : 'allure-results'
+           }
+        ]
     ],  
 }

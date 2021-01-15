@@ -1,0 +1,18 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "should login successfully using valid credentials",
+    "uid" : "a1bd6b3477987b49",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610704083285,
+      "stop" : 1610704100772,
+      "duration" : 17487
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "05199339B6010679-9" ]
+  } ]
+}
